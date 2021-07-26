@@ -1,0 +1,15 @@
+spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/ykjeong
+      username: ykjeong
+      password: ykjeong
+      driver-class-name: com.mysql.jdbc.Driver
+    jpa:
+      hibernate:
+        ddl-auto: create
+      database: mysql
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+      properties:
+          show_sql: true
+          format_sql: true
+          use_sql_comments: true
